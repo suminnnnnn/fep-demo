@@ -57,6 +57,8 @@ ol {
 .fixed--pos-br {
   right: var(--fixed-m-x);
   bottom: var(--fixed-m-y);
+  display: flex;
+  flex-direction: column-reverse;
 }
 .fixed--pos-br > li {
   line-height: 1.8rem;

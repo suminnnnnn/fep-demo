@@ -62,6 +62,8 @@ ol {
     &-br {
       right: var(--fixed-m-x);
       bottom: var(--fixed-m-y);
+      display: flex;
+      flex-direction: column-reverse;
 
       > li {
         line-height: 1.8rem;
@@ -78,8 +80,8 @@ ol {
     }
   }
 
-  // &__desc {
-  // }
+  &__desc {
+  }
 
   &__copyrights {
     font-size: 0.75rem;
